@@ -42,6 +42,7 @@ Alternativas reales utilizadas actualmente
 
 ## Por qué con IA y por qué este modelo
 
+Las alternativas actuales buscan por tiempo, por metadatos o por audio, pero ninguna entiende lo que se ve en pantalla. Un modelo como CLIP relaciona texto con imágenes, así que puede encontrar un fotograma a partir de una descripción, aunque el creador no estuviera hablando en ese momento.
 | Modelo y enlace | Parámetros | Licencia y fuente | Ventajas para ClipQuest | Desventajas o límites |
 | --- | --- | --- | --- | --- |
 | [CLIP ViT-B/32](https://huggingface.co/openai/clip-vit-base-patch32) | Aproximadamente 151.28 millones | [MIT](https://github.com/openai/CLIP/blob/main/LICENSE) | Permite relacionar imágenes y descripciones de texto | Su rendimiento en Fortnite debe probarse; la Model Card describe dificultades con categorías muy específicas y conteo de objetos |
